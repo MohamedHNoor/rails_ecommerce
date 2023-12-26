@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Rails Ecommerce
 
 > Fullstack E-Commerce app
