@@ -38,9 +38,11 @@
     <%= form.label :active %>
     <%= form.check_box :active, class: "block mt-2 h-5 w-5" %>
   </div>
-  <div class="my-5">
-    <%= link_to "Product Stock", admin_product_stocks_path(admin_product), class: "underline" %>
-  </div>
+  <% unless admin_product.new_record? %>
+    <div class="my-5">
+      <%= link_to "Product Stock", admin_product_stocks_path(admin_product), class: "underline" %>
+    </div>
+  <% end %>
   <div class="inline">
     <%= form.submit class: "rounded-lg py-3 px-5 bg-blue-600 text-white inline-block font-medium cursor-pointer" %>
   </div>
