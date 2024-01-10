@@ -1,6 +1,6 @@
 # Rails Ecommerce
 
-> Fullstack E-Commerce app
+> Fullstack E-Commerce web application
 
 # Key Features
 
