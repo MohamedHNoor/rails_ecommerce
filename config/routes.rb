@@ -24,4 +24,5 @@ Rails.application.routes.draw do
 
   get "admin" => "admin#index"
   get "category" => "category#index"
+  get "cart" => "cart#show"
 end
